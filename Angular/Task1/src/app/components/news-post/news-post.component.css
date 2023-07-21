@@ -1,0 +1,52 @@
+.news-container {
+  display: inline-block;
+  align-items: flex-start;
+}
+
+.news-post {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  flex: 0 0 calc(33.33% - 20px);
+  margin-left: 20px;
+  position: relative;
+}
+
+.sub-title {
+  color: gray;
+  font-size: 12px;
+}
+
+.post-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+
+.post-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 400px;
+  margin-top: 20px;
+}
+
+.date {
+  position: absolute;
+  left: 40px;
+  color: gray;
+  font-size: 12px;
+}
+
+.share-icon {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+}

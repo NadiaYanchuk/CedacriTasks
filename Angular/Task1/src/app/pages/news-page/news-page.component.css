@@ -1,0 +1,20 @@
+main {
+  padding: 50px;
+}
+
+h1 {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+span {
+  background-color: gray;
+  color: white;
+}
+
+.header {
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
